@@ -9,6 +9,7 @@
   - Leverage PaaS services
   - Deploy two or more VMs to achieve the required SLA
   - Deploy to two or more regions
+  - Leverage availability-zones (higher availability in the same region)
 
 ## Resilency
 
