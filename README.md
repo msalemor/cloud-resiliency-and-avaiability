@@ -16,11 +16,13 @@
 ## Resilency
 
 - Build for self-healing
-- Implement Resient Patterns
+- Implement resilient patterns
   - Incremental retry backoff strategy
   - Circuit breaker
+  - More information: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/application-resiliency-patterns
 - Implement Resilient Architectures
   - If main service fails, write to a backup service (ie write to ServiceBus if you cannot write to SQL)
+  - More information: https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/design-resiliency
   
 
 ## Monitor and Alerting
